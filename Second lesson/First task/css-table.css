@@ -1,0 +1,23 @@
+.table {
+	width: 100%;
+    border-spacing: 7px 15px;
+}
+.table td {
+	width: 20px;
+}
+.table tr:first-child {
+	background: orange;
+	height: 60px;
+}
+.table tr:nth-child(2) {
+	background: blue;
+	height: 200px;
+}
+.table tr:nth-child(3) {
+	background: green;
+	height: 150px;
+}
+.table tr:last-child {
+	background: yellow;
+	height: 100px;
+}

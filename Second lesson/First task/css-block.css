@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+}
+.first div {
+	background: yellow;
+	width: 49%;
+	height: 70px;
+	margin: 1% 0;
+	display: inline-block;
+}
+.second {
+	background: green;
+	height: 200px;
+	margin: 2% 1%;
+}
+.third div {
+	background: grey;
+	width: 32.5%;
+	height: 150px;
+	margin: 1% 0;
+	display: inline-block;
+}
+.fourth div {
+	background: blue;
+	width: 23%;
+	height: 100px;
+	margin: 1%;
+	float: left;
+}

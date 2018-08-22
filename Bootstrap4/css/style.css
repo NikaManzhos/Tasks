@@ -1,0 +1,37 @@
+	html{
+		width: 100%;
+	}
+	section {
+	    padding-bottom: 80px;
+	}
+
+	.carousel {
+	    position: relative;
+		margin: 26px auto;
+	    padding: 20px;
+	    max-width: 750px;
+		background: #ccc;
+		width: 100%;
+		box-shadow: 0 0 20px 8px rgb(173, 167, 167);
+	}
+	.carousel img {
+	    max-height: 350px;
+	    width: auto !important;
+	    margin: auto;
+	}
+
+	.dancing .card {
+		margin: 15px auto;
+	}
+
+	footer{
+		z-index: 1;
+		background: #696969;
+		display: table-cell;
+		vertical-align: middle;
+		color: #D3D3D3;
+		height: 50px;
+		box-sizing: border-box;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}	

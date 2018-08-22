@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+}
+.orange {
+	color: orange;
+}
+span {
+	color: red;
+	font-size: 20px;
+}
+.list_first {
+    list-style-type: disc;
+}
+.list_first li {
+	padding-left: 25px;
+}
+.list_second {
+	list-style: none;
+	padding-left: 20px;
+}
+.list_second li:before {
+	content: '\00A7';
+	padding-right: 15px;
+}
+.list_third li {
+	padding-left: 15px;
+}
