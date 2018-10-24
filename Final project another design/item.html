@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Item</title>
+		<link rel=stylesheet href="styles/bootstrap.min.css" type="text/css">
+		<link rel=stylesheet href="styles/font-awesome.css" type="text/css">
+		<link rel=stylesheet href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header  nav-second">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+							<span class="sr-only">Развернуть навигацию</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="images/brand.jpg"></a>
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="visible-xs">Page title</li>
+							<li class="hidden-xs">User name</li>
+							<li><img src="images/user1.png"></li>
+							<li><a href="admin_signup.html">Sign up</a></li>
+							<li><a href="admin_login.html">Log in</a></li>
+						</ul>
+					</div>
+		
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-second" id="menu">
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="item.html">Товар</a></li>
+							<li>Menu item</li>
+							<li>Menu item</li>
+							<li><a href="busket.html">Корзина</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-2 hidden-xs"> 
+						<ul class="list-group">
+							<li class="list-group-item-heading"><strong>Производители</strong></li>
+							<li class="list-group-item"><a href=''>Dimensions</a></li>
+							<li class="list-group-item"><a href=''>Janlynn</a></li>
+							<li class="list-group-item"><a href=''>Panna</a></li>
+							<li class="list-group-item"><a href=''>Riolis</a></li>
+							<li class="list-group-item"><a href=''>Золотое Руно</a></li>
+							<li class="list-group-item"><a href=''>Алиса</a></li>
+							<li class="list-group-item-heading"><strong>Производители ниток</strong></li>
+							<li class="list-group-item"><a href=''>DMC</a></li>
+							<li class="list-group-item"><a href=''>Гамма</a></li>
+							<li class="list-group-item"><a href=''>Riolis</a></li>
+							<li class="list-group-item-heading"><strong>Виды схем</strong></li>
+							<li class="list-group-item"><a href=''>Природа</a></li>
+							<li class="list-group-item"><a href=''>Натюрморты</a></li>
+							<li class="list-group-item"><a href=''>Портреты</a></li>
+							<li class="list-group-item"><a href=''>Животные</a></li>
+							<li class="list-group-item"><a href=''>Дети</a></li>
+							<li class="list-group-item"><a href=''>Пары</a></li>
+						</ul>
+
+					</div>
+				
+					<div class="col-md-10"> 
+						<div class="item_page__info-block">
+							<div class="img_preview">
+								<img src="images/item1.jpg">	
+								<button class="btn  btn-default" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-zoom-in"></span></button>	
+								
+							</div>
+							<div>
+								<h1>Вышивка крестом "Шотландский вереск" (250х250 мм)</h1>
+								<h3>Цена: <strong>21,78</strong> руб.</h3>
+							</div>
+						</div>
+						<p>Готовая картина привлечет к себе внимание и будет потрясающе смотреться в интерьере вашего дома. Вышивание отвлечет от повседневных забот и превратится в увлекательное занятие! Работа, сделанная своими руками, создаст особый уют и атмосферу в доме, будет долгие годы радовать вас и ваших близких.</p>
+						<ul class="list-none">
+							<li><span class="glyphicon glyphicon-ok"></span> Количество цветов нитей: 26.</li>
+							<li><span class="glyphicon glyphicon-ok"></span> Канва: Rustico Aida 14.</li>
+							<li><span class="glyphicon glyphicon-ok"></span> Материал канвы: лен.</li>
+							<li><span class="glyphicon glyphicon-ok"></span> Цвет канвы: льняной.</li>
+							<li><span class="glyphicon glyphicon-ok"></span> Нити: шерсть.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Просмотр набора</h4>
+						</div>
+						<div class="modal-body">
+							<div id="carousel-popup" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-popup" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-popup" data-slide-to="1"></li>
+									<li data-target="#carousel-popup" data-slide-to="2"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="images/item1.jpg">
+									</div>
+									<div class="item">
+										<img src="images/item11.jpg">
+									</div>
+									<div class="item">
+										<img src="images/item12.jpg">
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-popup" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#carousel-popup" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li>About</li>
+							<li>Policies</li>
+							<li>Site Map</li>
+							<li>Help</li>
+							<li>Contact us</li>
+						</ul>
+					</div>
+					<div class="col-md-12 hidden-xs">
+						&#169; 2018 Manzhos Veronika All rights reserved
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>
