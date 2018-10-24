@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Корзина</title>
+		<link rel=stylesheet href="styles/bootstrap.min.css" type="text/css">
+		<link rel=stylesheet href="styles/font-awesome.css" type="text/css">
+		<link rel=stylesheet href="styles/style.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header  nav-second">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+							<span class="sr-only">Развернуть навигацию</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="images/brand.jpg"></a>
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="visible-xs">Page title</li>
+							<li class="hidden-xs">User name</li>
+							<li><img src="images/user1.png"></li>
+							<li><a href="admin_signup.html">Sign up</a></li>
+							<li><a href="admin_login.html">Log in</a></li>
+						</ul>
+					</div>
+		
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-second" id="menu">
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="item.html">Товар</a></li>
+							<li>Menu item</li>
+							<li>Menu item</li>
+							<li><a href="busket.html">Корзина</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-2 hidden-xs"> 
+						<ul class="list-group">
+							<li class="list-group-item-heading"><strong>Производители</strong></li>
+							<li class="list-group-item"><a href=''>Dimensions</a></li>
+							<li class="list-group-item"><a href=''>Janlynn</a></li>
+							<li class="list-group-item"><a href=''>Panna</a></li>
+							<li class="list-group-item"><a href=''>Riolis</a></li>
+							<li class="list-group-item"><a href=''>Золотое Руно</a></li>
+							<li class="list-group-item"><a href=''>Алиса</a></li>
+							<li class="list-group-item-heading"><strong>Производители ниток</strong></li>
+							<li class="list-group-item"><a href=''>DMC</a></li>
+							<li class="list-group-item"><a href=''>Гамма</a></li>
+							<li class="list-group-item"><a href=''>Riolis</a></li>
+							<li class="list-group-item-heading"><strong>Виды схем</strong></li>
+							<li class="list-group-item"><a href=''>Природа</a></li>
+							<li class="list-group-item"><a href=''>Натюрморты</a></li>
+							<li class="list-group-item"><a href=''>Портреты</a></li>
+							<li class="list-group-item"><a href=''>Животные</a></li>
+							<li class="list-group-item"><a href=''>Дети</a></li>
+							<li class="list-group-item"><a href=''>Пары</a></li>
+						</ul>
+
+					</div>
+				
+					<div class="col-md-10 busket_wrap"> 
+						<div class="content_busket">
+							<div class="item ">
+								<span class="close"></span>
+								<div class="item_img"><img src="images/item1.jpg"></div>
+								<div class="item_desc">
+									<div class="item_desc_title">Вышивка крестом "Шотландский вереск" (250х250 мм)</div>
+								</div>
+								<div class="item_count">
+									<button><span class="glyphicon glyphicon-plus"></span></button><span class="amount">2</span><button><span class="glyphicon glyphicon-minus"></span></button>
+								</div>
+								<div class="item_price"><b>21,78</b><br> руб.</div>
+							</div>
+						</div>
+						<div class="buttons">
+							<a href="catalog.html" class="home">Вернуться в каталог</a>
+							<button class="show_popup" rel="popup">Оформить заказ</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li>About</li>
+							<li>Policies</li>
+							<li>Site Map</li>
+							<li>Help</li>
+							<li>Contact us</li>
+						</ul>
+					</div>
+					<div class="col-md-12 hidden-xs">
+						&#169; 2018 Manzhos Veronika All rights reserved
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>
